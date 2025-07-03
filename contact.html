@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBC Laboratory - Contact Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .bg-custom-blue-dark { background-color: #012a4a; }
+        .bg-custom-blue-light { background-color: #013a63; }
+        .bg-custom-green { background-color: #84a98c; }
+        .hover\:bg-custom-green-dark:hover { background-color: #6b8f71; }
+        .text-custom-green-light { color: #a6c4a9; }
+        .focus\:ring-custom-green:focus { --tw-ring-color: #84a98c; }
+    </style>
+</head>
+<body class="bg-custom-blue-light text-white">
+
+    <!-- Navigation -->
+    <nav class="bg-custom-blue-dark/80 backdrop-blur-sm sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html">
+                        <img src="mbc-logo.png" alt="MBC Laboratory Logo" class="h-12">
+                    </a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="index.html" class="text-gray-300 hover:bg-custom-blue-dark hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="divisions.html" class="text-gray-300 hover:bg-custom-blue-dark hover:text-white px-3 py-2 rounded-md text-sm font-medium">Divisions & Services</a>
+                        <a href="contact.html" class="bg-custom-blue-dark text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                        <a href="developer.html" class="text-gray-300 hover:bg-custom-blue-dark hover:text-white px-3 py-2 rounded-md text-sm font-medium">Developer</a>
+                    </div>
+                </div>
+                <div class="-mr-2 flex md:hidden">
+                    <button id="mobile-menu-button" type="button" class="bg-custom-blue-dark inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-800 focus:ring-white">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="text-gray-300 hover:bg-custom-blue-dark hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                <a href="divisions.html" class="text-gray-300 hover:bg-custom-blue-dark hover:text-white block px-3 py-2 rounded-md text-base font-medium">Divisions & Services</a>
+                <a href="contact.html" class="bg-custom-blue-dark text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+                <a href="developer.html" class="text-gray-300 hover:bg-custom-blue-dark hover:text-white block px-3 py-2 rounded-md text-base font-medium">Developer</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <main class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-extrabold text-white sm:text-4xl">Get In Touch</h2>
+                <p class="mt-4 text-lg text-gray-400">We'd love to hear from you. Reach out with questions, project ideas, or partnership opportunities.</p>
+            </div>
+
+            <div class="mt-16 grid md:grid-cols-2 gap-16">
+                <!-- Contact Info & Map -->
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-xl font-bold text-custom-green-light">Company Address</h3>
+                        <p class="mt-2 text-gray-300">Jl. Telekomunikasi No.1, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40267</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-custom-green-light">Contact Details</h3>
+                        <p class="mt-1 text-gray-300">Email: mbclaboratory@example.com</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-custom-green-light">Our Location</h3>
+                        <div class="mt-2 rounded-lg overflow-hidden shadow-lg">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2354.8279780713265!2d107.62847534011496!3d-6.970006983442403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9bc3974981d%3A0x613eec0feec9fcf7!2sTelkom%20University%20Landmark%20Tower%20(TULT)!5e0!3m2!1sen!2sid!4v1751540591534!5m2!1sen!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-custom-blue-dark p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold text-white mb-6">Send us a Message</h3>
+                    <form id="contact-form">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-300 text-sm font-bold mb-2">Name</label>
+                            <input type="text" id="name" name="name" required class="w-full bg-custom-blue-light text-white rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-custom-green">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-300 text-sm font-bold mb-2">Email</label>
+                            <input type="email" id="email" name="email" required class="w-full bg-custom-blue-light text-white rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-custom-green">
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-300 text-sm font-bold mb-2">Message</label>
+                            <textarea id="message" name="message" rows="5" required class="w-full bg-custom-blue-light text-white rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-custom-green"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="w-full bg-custom-green text-white font-bold py-3 px-4 rounded-lg hover:bg-custom-green-dark transition duration-300">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                    <div id="form-status" class="mt-4 text-center"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
